@@ -1,0 +1,292 @@
+.page__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 4%;
+  max-width: 1100px;
+}
+
+.header__left {
+  /* width: 340px; */
+  font-family: cursive;
+  font-size: 60px;
+  color: black;
+  margin-top: 8px;
+}
+
+.header__right__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  list-style: none;
+  color: black;
+  font-size: 1.25rem;
+}
+
+.header__right__list li {
+  margin-left: 36px;
+  cursor: pointer;
+}
+
+.header__right__list li:hover {
+  background-color: black;
+  color: white;
+}
+
+.main {
+
+}
+
+.wrapper {
+  padding: 0 4%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.main__top {
+
+}
+
+.main__top__img {
+  width: 90%;
+  height: 90%;
+}
+
+.main__top__logo {
+  position: absolute;
+  bottom: 20px;
+  right: 300px;
+  color: white;
+}
+
+.main__top__logo__title {
+}
+
+.main__top__logo__name {
+  font-family: cursive;
+}
+
+.concept {
+  padding: 80px 0px;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1400px;
+  margin-top: 100px;
+}
+
+.concept__wrapper {
+  padding-top: 20px;
+  position: relative;
+  left: 40%;
+  width: 50%;
+  text-align: left;
+}
+
+.concept__top {
+  font-size: 24px;
+  letter-spacing: .3em;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.concept__bottom p {
+  line-height: 2.2;
+}
+
+.concept__title{
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-bottom: black 1px solid;
+  width: 10%;
+  position: absolute;
+  left: 200px;
+  top: 900px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 0px;
+  margin-top: 30px;
+}
+
+.menu {
+  max-width: 1400px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 80px 0px;
+  margin-top: 150px;
+  position: relative;
+}
+
+.menu__wrapper {
+  width: 88%;
+  /* margin: 0 auto; */
+}
+
+.menu__title {
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-bottom: black 1px solid;
+  width: 10%;
+  font-weight: bold;
+  text-align: left;
+  line-height: 0px;
+  position: absolute;
+  top: 0%;
+  left: 10%;
+}
+
+.menu__content {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.menu__list {
+  background: lightblue;
+  margin-left: 12rem;
+  width: 36%;
+  position: relative;
+}
+
+.menu__list__color {
+  background: lightcoral;
+  width: 36%;
+  margin-left: 30px;
+  position: relative;
+}
+
+.menu__box {
+  text-align: left;
+  padding: 30px 0px  30px 120px;
+}
+
+.icon {
+  display: inline-block;
+  transform: scaleX(-1);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "f095";
+  position: absolute;
+  left: 20%;
+  bottom: 5%;
+}
+
+.more {
+  cursor: pointer;
+  border-bottom: solid 1px;
+  letter-spacing: .2em;
+  width: 25%;
+  line-height: 0px;
+  position: absolute;
+  right: 10%;
+  bottom: 0%;
+}
+
+.more h2 {
+  text-align: left;
+}
+
+.info {
+  position: relative;
+  margin-top: 210px;
+}
+
+.info__wrapper {
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-bottom: black 1px solid;
+  width: 13%;
+  position: absolute;
+  font-weight: bold;
+  text-align: left;
+  line-height: 0px;
+  margin-top: 30px;
+  left: 210px;
+}
+
+.info__message {
+  position: absolute;
+  left: 210px;
+  top: 170px;
+  line-height: 2.2;
+}
+
+.info__main__img {
+  width: 50%;
+  height: 50%;
+  margin: 140px 0px 0px 250px;
+}
+
+.content {
+  margin: 270px 0px 100px 0px;
+}
+
+.content__blog {
+  width: 40%;
+  display: inline-block;
+  position: relative;
+}
+
+.blog__box {
+
+}
+
+.blog {
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  font-weight: bold;
+  text-align: left;
+  line-height: 0px;
+  margin-top: 30px;
+  left: 115px;
+  top: -90px;
+}
+
+.blog__message {
+  position: absolute;
+  left: 115px;
+}
+
+.content__news {
+  display: inline-block;
+  width: 40%;
+}
+
+.content__box {
+
+}
+
+.blog__img {
+  width: 60%;
+  height: 60%;
+}
+
+.content__news {
+
+}
+
+.news {
+  width: 40%;
+}
+
+.news__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
